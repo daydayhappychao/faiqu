@@ -1,0 +1,23 @@
+{
+  "name": "faiqu",
+  "version": "0.1.0",
+  "description": "> fetch for restful",
+  "main": "index.js",
+  "scripts": {
+    "test": "bu neng test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangchaoduo/faiqu.git"
+  },
+  "keywords": [
+    "fetch",
+    "restful"
+  ],
+  "author": "Magin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangchaoduo/faiqu/issues"
+  },
+  "homepage": "https://github.com/wangchaoduo/faiqu#readme"
+}
