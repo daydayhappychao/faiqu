@@ -7,13 +7,13 @@
 ##### Init Api 
 1. __faiquInit.baseUrl__(url:string)
 2. __faiquInit.preMethod__(Array< Function >)
-3. __faiquInit.defaultData__({}) 
+3. __faiquInit.defaultData__(data:{}) 
 > key:string=>value:Function
-4. __faiquInit.defaultHeader__({}) 
+4. __faiquInit.defaultHeader__(data:{}) 
 > default:{ 'Content-type': 'application/x-www-form-urlencoded' }
-5. __faiquInit.defaultParams__({})
+5. __faiquInit.defaultParams__(data:{})
 > default:{credentials: 'include' }
-6. __faiquInit.err_catch__(Function)
+6. __faiquInit.err_catch__(param:Function)
 > This method only applies to the error in the faiqu object and the error in preMethod 
 
 ##### First Level

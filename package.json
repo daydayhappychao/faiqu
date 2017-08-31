@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "> fetch for restful",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "bu neng test"
   },
