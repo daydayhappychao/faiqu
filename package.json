@@ -2,10 +2,11 @@
   "name": "faiqu",
   "version": "0.1.0",
   "description": "> fetch for restful",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "typings": "index.d.ts",
   "scripts": {
-    "test": "bu neng test"
+    "test": "bu neng test",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/wangchaoduo/faiqu/issues"
   },
-  "homepage": "https://github.com/wangchaoduo/faiqu#readme"
+  "homepage": "https://github.com/wangchaoduo/faiqu#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }

@@ -1,5 +1,6 @@
-import { baseUrl, preMethod, err_catch, defaultParams, defaultHeader, faiquInit, defaultData } from './init'
+import { baseUrl, preMethod, err_catch, defaultParams, defaultHeader, defaultData } from './init'
 
+export { faiquInit } from './init'
 export default function faiqu(url) {
 
     if (typeof url !== 'string') throw new Error('faiqu方法的参数为一个字符串')
