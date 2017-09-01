@@ -8,6 +8,8 @@ export default function faiqu(url) {
 
     //*params init
     this.url = baseUrl + url
+    if (url.substr(0, 6) === 'http://')
+        this.url = url
     this.data = {}
     this.header = new Headers()
     this.method = ''
