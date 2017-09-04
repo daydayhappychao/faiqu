@@ -8,7 +8,7 @@ export let defaultHeader = { 'Content-type': 'application/x-www-form-urlencoded'
 export let defaultData = { }
 export let err_catch = (err) => { }
 
-export default faiquInit = {
+export let faiquInit = {
     baseUrl: function (url) {
         baseUrl = url
     },
